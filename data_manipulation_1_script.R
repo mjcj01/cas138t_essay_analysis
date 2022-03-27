@@ -133,7 +133,7 @@ success_cost_table <- filter(expenditures_and_scores, top_half_of_state_all == "
 
 median(success_cost_table$`expenditures_2018_19$AIE.per.WADM`)
 
-### Median is $13,100.22
+### Median is $10,321.85
 
 expenditures_and_scores$distance_from_median_cost <- expenditures_and_scores$`expenditures_2018_19$AIE.per.WADM` - 10321.85
 
