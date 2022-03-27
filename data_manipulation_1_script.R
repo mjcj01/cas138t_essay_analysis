@@ -42,7 +42,7 @@ names(passed_table_ela)[names(passed_table_ela) == "value"] <- "total_test_taker
 ### Districts listed in the "omitted_districts" value set do offer 8th grade for various reasons, and thus are
 ### excluded from the analysis
 
-write_xlsx(passed_table_ela,"C:\\Users\\micha\\Documents\\Spring 2022\\CAS 138T\\Persuasive Essay\\table.xlsx")
+### write_xlsx(passed_table_ela,"C:\\Users\\micha\\Documents\\Spring 2022\\CAS 138T\\Persuasive Essay\\table.xlsx")
 
 ### Getting district level data for Science, Grade 8
 
